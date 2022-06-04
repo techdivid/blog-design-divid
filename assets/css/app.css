@@ -1348,7 +1348,7 @@ img.lozad.loaded {
   position: relative;
 }
 .m-icon-button.more.active {
-  color: var(--primary-subtle-color);
+  color: var(--persian-plum);
 }
 .m-icon-button.in-pagination-left,
 .m-icon-button.in-pagination-right {
@@ -1682,7 +1682,8 @@ img.lozad.loaded {
   display: none;
 }
 .m-header.with-picture {
-  background-color: var(--background-color);
+  background-color: #DBA080;
+  color: white;
 }
 .m-mobile-topbar {
   display: flex;
