@@ -12,9 +12,9 @@
   vertical-align: inherit;
 }
 html {
-  font-family: 'Open Sans', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
-    Oxygen, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-    Noto Color Emoji;
+  font-family: "Open Sans", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Oxygen, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Noto Color Emoji;
   line-height: 1.15;
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -42,8 +42,8 @@ nav ul {
   list-style: none;
 }
 pre {
-  font-family: 'Open Sans', Menlo, Consolas, Roboto Mono, Ubuntu Monospace, Oxygen Mono,
-    Liberation Mono, monospace;
+  font-family: "Open Sans", Menlo, Consolas, Roboto Mono, Ubuntu Monospace,
+    Oxygen Mono, Liberation Mono, monospace;
   font-size: 1em;
 }
 a {
@@ -61,8 +61,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: 'Open Sans', Menlo, Consolas, Roboto Mono, Ubuntu Monospace, Oxygen Mono,
-    Liberation Mono, monospace;
+  font-family: "Open Sans", Menlo, Consolas, Roboto Mono, Ubuntu Monospace,
+    Oxygen Mono, Liberation Mono, monospace;
   font-size: 1em;
 }
 small {
@@ -308,33 +308,33 @@ textarea {
 @media (prefers-color-scheme: light) {
   :root:not([data-theme="light"]) {
     --background-color: #fff;
-  --primary-foreground-color: #4a4a4a;
-  --secondary-foreground-color: #000;
-  --primary-subtle-color: #04aeee;
-  --secondary-subtle-color: #f4f8fd;
-  --titles-color: #333;
-  --link-color: #293951;
-  --primary-border-color: #9b9b9b;
-  --secondary-border-color: #f0f8ff;
-  --article-shadow-normal: 0 10px 10px rgba(0, 0, 0, 0.08);
-  --article-shadow-hover: 0 4px 60px 0 rgba(0, 0, 0, 0.2);
-  --transparent-background-color: hsla(0, 0%, 100%, 0.99);
-  --footer-background-color: #293951;
-  --submenu-shadow-color-opacity: 0.25;
-  --button-shadow-color-normal: hsla(0, 0%, 42.4%, 0.2);
-  --button-shadow-color-hover: hsla(0, 0%, 42.4%, 0.3);
-  --toggle-darkmode-button-color: #fff;
-  --table-background-color-odd: #fafafa;
-  --table-head-border-bottom: #e2e2e2;
+    --primary-foreground-color: #4a4a4a;
+    --secondary-foreground-color: #000;
+    --primary-subtle-color: #04aeee;
+    --secondary-subtle-color: #f4f8fd;
+    --titles-color: #333;
+    --link-color: #293951;
+    --primary-border-color: #9b9b9b;
+    --secondary-border-color: #f0f8ff;
+    --article-shadow-normal: 0 10px 10px rgba(0, 0, 0, 0.08);
+    --article-shadow-hover: 0 4px 60px 0 rgba(0, 0, 0, 0.2);
+    --transparent-background-color: hsla(0, 0%, 100%, 0.99);
+    --footer-background-color: #293951;
+    --submenu-shadow-color-opacity: 0.25;
+    --button-shadow-color-normal: hsla(0, 0%, 42.4%, 0.2);
+    --button-shadow-color-hover: hsla(0, 0%, 42.4%, 0.3);
+    --toggle-darkmode-button-color: #fff;
+    --table-background-color-odd: #fafafa;
+    --table-head-border-bottom: #e2e2e2;
 
-  --persian-plum: #681e23;
-  --copper-red: #d56344;
-  --sandy-brown: #ef9e51;
-  --white: #fff;
-  --tumbleweed: #daa080;
-  --redwood: #af5d4e;
-  --artichoke: #87907d;
-  --desert-sand: #dbbfa7;
+    --persian-plum: #681e23;
+    --copper-red: #d56344;
+    --sandy-brown: #ef9e51;
+    --white: #fff;
+    --tumbleweed: #daa080;
+    --redwood: #af5d4e;
+    --artichoke: #87907d;
+    --desert-sand: #dbbfa7;
   }
 }
 .hide {
@@ -432,7 +432,7 @@ body {
   min-height: 100vh;
   color: var(--primary-foreground-color);
   font-size: 1rem;
-  font-family: 'Open Sans', Source Sans Pro, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Source Sans Pro, Helvetica, Arial, sans-serif;
   font-display: swap;
   overflow-x: hidden;
   background-color: var(--background-color);
@@ -2391,7 +2391,7 @@ _:-ms-fullscreen {
   position: relative;
   margin-bottom: 20px;
   height: 400px;
-  background-color: #F6F4F2;
+  background-color: #f6f4f2;
   border-radius: 10px;
   border: 1px solid var(--secondary-border-color);
   z-index: 1;
