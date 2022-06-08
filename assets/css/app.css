@@ -2117,12 +2117,12 @@ _:-ms-fullscreen {
 }
 @media only screen and (min-width: 48rem) {
   .m-hero.with-picture {
-    min-height: 450px;
+    min-height: 300px;
   }
 }
 @media only screen and (min-width: 80rem) {
   .m-hero.with-picture {
-    min-height: 565px;
+    min-height: 400px;
   }
 }
 .m-hero.with-picture .m-hero-title {

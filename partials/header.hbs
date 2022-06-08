@@ -13,7 +13,8 @@ This header template is shared across all the pages.
     </button>
     {{#if @site.logo}}
       <a href="{{@site.url}}" class="m-logo in-mobile-topbar">
-        <img src="{{@site.logo}}" alt="{{@site.title}}">
+        {{!-- <img src="{{@site.logo}}" alt="{{@site.title}}"> --}}
+        <img src="https://divid.com.br/assets/logoNova.svg" alt="{{@site.title}}">
       </a>
     {{else}}
       <a href="{{@site.url}}" class="m-site-name in-mobile-topbar">
