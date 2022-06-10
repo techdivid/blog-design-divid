@@ -1231,7 +1231,8 @@ img.lozad.loaded {
 }
 .l-post-content button.outlined:not(.m-icon-button),
 .m-button.outlined {
-  color: var(--titles-color);
+  /* color: var(--titles-color); */
+  color: var(--background-color);
   border: 1px solid var(--primary-foreground-color);
 }
 .l-post-content button.filled:not(.m-icon-button),
@@ -1265,7 +1266,8 @@ img.lozad.loaded {
   background-color: var(--primary-subtle-color);
 }
 .m-icon-button {
-  color: var(--titles-color);
+  /* color: var(--titles-color); */
+  color: var(--background-color);
   font-size: 1.125rem;
   border: 0;
   outline: 0;
@@ -1431,7 +1433,8 @@ img.lozad.loaded {
   }
 }
 .m-icon-button.in-share {
-  color: var(--titles-color);
+  /* color: var(--titles-color); */
+  color: var(--background-color);
   font-size: 0.75rem;
   text-decoration: none;
   width: 31px;
@@ -2100,7 +2103,8 @@ _:-ms-fullscreen {
 .m-hero {
   position: relative;
   flex-direction: column;
-  min-height: 365px;
+  /* min-height: 365px; */
+  min-height: 300px;
   overflow: hidden;
   padding: 100px 0 75px;
   background-color: var(--secondary-subtle-color);
@@ -2117,12 +2121,12 @@ _:-ms-fullscreen {
 }
 @media only screen and (min-width: 48rem) {
   .m-hero.with-picture {
-    min-height: 300px;
+    min-height: 200px;
   }
 }
 @media only screen and (min-width: 80rem) {
   .m-hero.with-picture {
-    min-height: 400px;
+    min-height: 300px;
   }
 }
 .m-hero.with-picture .m-hero-title {
