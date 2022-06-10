@@ -1266,8 +1266,8 @@ img.lozad.loaded {
   background-color: var(--primary-subtle-color);
 }
 .m-icon-button {
-  color: var(--titles-color);
-  /* color: var(--background-color); */
+  /* color: var(--titles-color); */
+  color: var(--background-color);
   font-size: 1.125rem;
   border: 0;
   outline: 0;
