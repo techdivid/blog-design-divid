@@ -1040,7 +1040,7 @@ img.lozad.loaded {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5IiBoZWlnaHQ9IjUiPjxwYXRoIGZpbGw9IiM1NjVlNjAiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTguMzIuNTdhLjI0Ny4yNDcgMCAwMTAgLjM2TDQuNjggNC41N2EuMjQ3LjI0NyAwIDAxLS4zNiAwTC42OC45M2EuMjQ3LjI0NyAwIDAxMC0uMzZsLjM5LS4zOWEuMjQ3LjI0NyAwIDAxLjM2IDBMNC41IDMuMjUgNy41Ny4xOGEuMjQ3LjI0NyAwIDAxLjM2IDBsLjM5LjM5eiIvPjwvc3ZnPg==");
 }
 .l-post-content button:not(.m-icon-button) {
-  border: 1px solid var(--primary-foreground-color) !important;
+  border: 1px solid var(--background-color) !important;
 }
 .l-post-content .kg-bookmark-card {
   width: 100%;
@@ -1233,7 +1233,7 @@ img.lozad.loaded {
 .m-button.outlined {
   /* color: var(--titles-color); */
   color: var(--background-color);
-  border: 1px solid var(--primary-foreground-color);
+  border: 1px solid var(--background-color);
 }
 .l-post-content button.filled:not(.m-icon-button),
 .l-post-content button.primary:not(.m-icon-button),
@@ -1266,8 +1266,8 @@ img.lozad.loaded {
   background-color: var(--primary-subtle-color);
 }
 .m-icon-button {
-  /* color: var(--titles-color); */
-  color: var(--background-color);
+  color: var(--titles-color);
+  /* color: var(--background-color); */
   font-size: 1.125rem;
   border: 0;
   outline: 0;
@@ -1277,7 +1277,7 @@ img.lozad.loaded {
 }
 .m-icon-button.outlined {
   border-radius: 50%;
-  border: 1px solid var(--primary-foreground-color);
+  border: 1px solid var(--background-color);
 }
 .m-icon-button.filled {
   background-color: var(--background-color);
@@ -1749,7 +1749,8 @@ img.lozad.loaded {
   }
 }
 .m-nav__left ul li {
-  color: var(--titles-color);
+  /* color: var(--titles-color); */
+  color: var(--background-color);
   letter-spacing: 0.3px;
   font-size: 1.125rem;
   margin-bottom: 15px;
@@ -1801,7 +1802,7 @@ img.lozad.loaded {
   opacity: 0;
   overflow-y: auto;
   z-index: 2;
-  background-color: var(--transparent-background-color);
+  /* background-color: var(--transparent-background-color); */
   -webkit-overflow-scrolling: touch;
   transform: scale(1.2);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -2005,11 +2006,12 @@ img.lozad.loaded {
   background-size: 64px 64px;
 }
 .m-recent-article__title {
-  color: var(--titles-color);
+  /* color: var(--titles-color); */
+  color: var(--background-color);
   letter-spacing: 0.2px;
   line-height: 1.438rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0 0 10px;
 }
 @media only screen and (min-width: 48rem) {
